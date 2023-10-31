@@ -1,0 +1,20 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #eaeaf2e3;
+  font-size: 20px;
+  padding: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: #8e8f99;
+}
+.footer img {
+  width: 42px;
+}
+
+.footer img.khales-img {
+  width: 62px;
+}

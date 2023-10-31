@@ -1,0 +1,19 @@
+.biller .cardS {
+  aspect-ratio: 1/0.82 !important;
+  width: 100%;
+  height: 100% !important;
+  padding: 30px 5px 20px;
+}
+.biller .cardS a .image {
+  width: 30% !important;
+}
+.biller .services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(156px, 1fr)) !important;
+  gap: 24px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.biller .services::-webkit-scrollbar {
+  display: none;
+}

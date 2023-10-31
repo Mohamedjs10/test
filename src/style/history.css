@@ -1,0 +1,55 @@
+.client-history .order {
+  /* border: 1px solid #bbb; */
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 32px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px rgb(243, 242, 242);
+}
+.client-history .order .category-name {
+  color: #071e6f;
+  font-size: 16px;
+  font-weight: 700;
+}
+.client-history .order .date,
+.client-history .order > p:nth-child(3) span {
+  color: #5a5a5a;
+}
+.client-history .order p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.client-history .order > p {
+  margin-bottom: 8px;
+}
+.client-history .order p.b-s-name {
+  gap: 8px;
+  justify-content: flex-start;
+}
+.client-history .order img {
+  width: 20px;
+  aspect-ratio: 1/1;
+}
+.client-history .order .order-info {
+  margin-top: 16px;
+}
+.client-history .order .status {
+  font-weight: 700;
+}
+.client-history .order .PAID {
+  color: #68c252;
+}
+
+.client-history .order .FAILED,
+.PAID.status.biller_failure {
+  color: #e60000;
+}
+
+.client-history .order .EXPIRED,
+.client-history .order .REFUNDED,
+.client-history .order .card_refunded {
+  color: #f58220;
+}

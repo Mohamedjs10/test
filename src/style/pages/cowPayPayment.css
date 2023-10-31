@@ -1,0 +1,18 @@
+.cowPayPage {
+  margin-top: 40px;
+}
+.cowPayPage .payment-result .faild,
+.cowPayPage .payment-result .success {
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 16px;
+}
+.bill-buttons {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+.bill-buttons :first-child {
+  background-color: #fff;
+}

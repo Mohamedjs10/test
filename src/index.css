@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ping LCG", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5 !important;
+  color: black !important;
+  /* min-height: 100vh; */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+@font-face {
+  font-family: "Agrandir-Regular"; /*Can be any text*/
+  src: local("Agrandir-Regular"),
+    url("./fonts/Agrandir-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "BalooBhaijaan2-Regular"; /*Can be any text*/
+  src: local("BalooBhaijaan2-Regular"),
+    url("./fonts/BalooBhaijaan2-Regular.ttf") format("truetype");
+}
+
+/* new */
+.flex-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flex-line-label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #141414;
+}
+.flex-line-body {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5a5a5a;
+}

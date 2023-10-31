@@ -1,0 +1,64 @@
+.billers,
+.categories {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 12px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.billers::-webkit-scrollbar,
+.categories::-webkit-scrollbar {
+  display: none;
+}
+.categories p {
+  background-color: #e9eaea;
+  border-radius: 20px;
+  padding: 8px 16px;
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #6f7073;
+}
+.categories p.active {
+  background-color: #2d317f;
+  color: #fff;
+}
+.billers p {
+  padding: 16px 5px;
+  width: 125px;
+  height: 115px;
+  aspect-ratio: 1/0.92;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(28, 28, 28, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.billers p.active {
+  border: 1px solid #2d317f;
+}
+.billers p img {
+  width: 48px;
+}
+.inputs p {
+  color: #2d317f;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.inputs input,
+.inputs select {
+  margin-bottom: 16px;
+}
+@media (max-width: 400px) {
+  button,
+  input,
+  select {
+    width: 100% !important;
+  }
+}

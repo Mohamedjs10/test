@@ -1,0 +1,17 @@
+.payment-service .billers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 24px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.payment-service .billers::-webkit-scrollbar {
+  display: none;
+}
+.payment-service .category-billers h5 {
+  color: #071e6f;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}

@@ -1,0 +1,13 @@
+.POS-Categories {
+  color: #27277f;
+  position: relative;
+}
+.POS-Categories .navbar .back {
+  display: none;
+}
+.POS-Categories .categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  margin: 0 auto;
+  gap: 20px;
+}

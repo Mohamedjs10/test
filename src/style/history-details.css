@@ -1,0 +1,57 @@
+.aman-history h5 {
+  color: #071e6f;
+  font-weight: bold;
+}
+
+.aman-history .review-heading-box,
+.aman-history .history-deatils,
+.aman-history .error-bill {
+  border: 1px solid #bebfd7 !important;
+  border-radius: 12px;
+}
+
+.aman-history .new-bill {
+  background-color: #fff;
+  box-shadow: 1px 1px 10px rgb(243, 242, 242);
+  border-radius: 8px;
+}
+.aman-history h6 {
+  font-size: 20px;
+}
+
+.aman-history .text {
+  font-size: 14px;
+  color: #141414;
+  font-weight: 600;
+}
+.aman-history .data {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.aman-history .status {
+  font-weight: 700;
+}
+.aman-history .PAID,
+.aman-history .SUCCESS {
+  color: #68c252;
+}
+
+.aman-history .FAILED,
+.PAID.status.biller_failure {
+  color: #e60000 !important;
+}
+
+.aman-history .EXPIRED,
+.aman-history .REFUNDED,
+.aman-history .PAID.status.card_refunded {
+  color: #f58220;
+}
+
+.aman-history input,
+.aman-history select {
+  border: 1px solid #bbbbbb;
+  border-radius: 8px;
+  padding: 16px 12px;
+  text-align: center;
+}

@@ -1,0 +1,209 @@
+.App,
+.loader {
+  position: relative;
+}
+.App {
+  padding-bottom: 120px;
+  padding-top: 20px;
+}
+.App::-webkit-scrollbar {
+  display: none;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin: 15px auto;
+  color: #fff;
+  box-sizing: border-box;
+  animation: 1s linear infinite rotation;
+}
+.loader::after,
+.loader::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  background-color: #081f70;
+  border-radius: 50%;
+  animation: 1s ease-in-out infinite scale50;
+}
+.loader::before {
+  top: auto;
+  bottom: 0;
+  background-color: #fdaa75;
+  animation-delay: 0.5s;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes scale50 {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+.client-history .feature-header p {
+  display: none;
+}
+.serviceInputs .Mui-checked {
+  color: #ff8e0a !important;
+}
+input,
+select {
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 16px 12px;
+  text-align: center;
+  width: 343px;
+}
+button:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+button {
+  border: none;
+  border-radius: 8px !important;
+  background-color: #ff8e0a;
+  padding: 5px 15px;
+  width: 343px;
+  height: 36px;
+}
+
+/* ************** */
+
+.quickpay-section h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.quickpay-section h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+.quickpay-section h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* === HEADING STYLE #3 === */
+.quickpay-section .heading-title h2 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 9px;
+  position: relative;
+  color: #081f70;
+}
+.quickpay-section .heading-title h2:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  width: 55px;
+  background-color: #ff8e0a;
+}
+.quickpay-section .heading-title h2:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  height: 1px;
+  width: 95%;
+  max-width: 200px;
+  background-color: #ff8e0a;
+}
+
+.quickpay-section .heading-title.due-to-box h2:before,
+.quickpay-section .heading-title.plans-box h2:before {
+  width: 0px;
+}
+
+.quickpay-section .heading-title.main-title h2 {
+  font-size: 25px;
+}
+
+.quickpay-section .main-title {
+  position: fixed;
+  top: 20px;
+  z-index: 99999;
+  width: 100%;
+  background-color: transparent;
+}
+.quickpay-section .main-title.bg-white-fixed {
+  position: fixed;
+  top: 20px;
+  z-index: 99999;
+  width: 100%;
+  top: 0;
+  padding-top: 30px;
+  background-color: #f5f5f5;
+}
+
+.quickpay-section .heading-title.main-title h2:before {
+  width: 95%;
+  /* max-width: 325px; */
+}
+
+.quickpay-section .box-btn-bg {
+  background-color: #eaeaf2e3;
+  position: fixed;
+  bottom: 46px;
+  z-index: 99999;
+  width: 100%;
+}
+
+.quickpay-section .heading-title.right h2:before {
+  right: 0;
+}
+
+.quickpay-section .heading-title.right h2:after {
+  right: 0;
+}
+
+.quickpay-section .heading-title.left h2:before {
+  left: 0;
+}
+
+.quickpay-section .heading-title.left h2:after {
+  left: 0;
+}
+
+.quickpayitemform.multipayform select,
+.quickpayitemform.multipayform input {
+  padding: 3px !important;
+  height: 36px;
+}

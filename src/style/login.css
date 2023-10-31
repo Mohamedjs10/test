@@ -1,0 +1,64 @@
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.login .container {
+  width: fit-content;
+  position: relative;
+}
+.login .lang-btn {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 50px;
+}
+.login .login-frm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  flex-direction: column;
+}
+.login .login-frm .frm-logo {
+  width: 250px;
+}
+.login .login-frm .frm-logo img {
+  max-width: 100%;
+}
+.login .login-frm .login-frm-inputs {
+  width: 300px;
+}
+.login .login-frm .login-frm-inputs input {
+  margin-bottom: 15px;
+  border: 1px solid #27277f;
+  border-radius: 10px;
+  padding: 5px 15px;
+  text-align: center;
+  color: #27277f;
+  caret-color: #27277f;
+}
+.login .login-frm .login-frm-inputs input:focus {
+  outline: 0;
+}
+.login .login-frm .login-frm-inputs button {
+  border: none;
+  color: #27277f;
+  border-radius: 20px;
+  background-color: #ccc;
+  padding: 5px;
+}
+.login .login-frm .login-frm-inputs button:focus {
+  outline: #27277f solid 1px;
+}
+.login .alert {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}

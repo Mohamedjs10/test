@@ -1,0 +1,11 @@
+.lang-btn button {
+  border: none;
+  background-color: transparent;
+}
+.lang-btn img {
+  max-width: 100%;
+}
+.lang-btn svg {
+  color: #fff;
+  font-size: 40px;
+}

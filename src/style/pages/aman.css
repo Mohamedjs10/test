@@ -1,0 +1,34 @@
+.details {
+  width: 100%;
+}
+.details div {
+  display: flex;
+  justify-content: space-between;
+}
+.details .s-line {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.details .s-line p:first-child {
+  margin-bottom: 0;
+}
+.details .s-line p:last-child {
+  color: #5a5a5a;
+  font-size: 14px;
+}
+#total-amount {
+  font-weight: 700;
+}
+.enquiry-result,
+.error-message {
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+.confirm-pay {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
